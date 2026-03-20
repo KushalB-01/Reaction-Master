@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Reaction Master</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div id="introScreen">
+  <h1>⚡ Reaction Master</h1>
+  <input type="text" id="username" placeholder="Enter your name" />
+  <button id="enterGame">Enter Game</button>
+</div>
+
+
+  <div class="container">
+    <h1>⚡ Reaction Master</h1>
+    <p id="message">Click start and wait for green...</p>
+    <button id="startBtn">Start</button>
+    <select id="difficulty">
+  <option value="easy">Easy</option>
+  <option value="medium" selected>Medium</option>
+  <option value="hard">Hard</option>
+</select>
+
+<select id="themeSwitcher">
+  <option value="neon">Neon</option>
+  <option value="dark">Dark</option>
+  <option value="pastel">Pastel</option>
+</select>
+
+<p id="streak">🔥 Streak: 0</p>
+    <div id="gameArea"></div>
+    <p id="result"></p>
+    <button id="shareBtn">🔗 Share Score</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
